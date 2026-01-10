@@ -154,7 +154,7 @@ export default function Footer() {
             </MotionWrapper>
 
             {/* Projects */}
-            <MotionWrapper className="md:w-1/2 lg:w-[23%]">
+            <MotionWrapper className="md:w-1/2 lg:w-[23%] 2xl:w-[20%]">
               <h3 className="text-white font-cormorant font-normal text-[20px] mb-6 md:mb-12 underline decoration-1 uppercase">
                 Projects
               </h3>
