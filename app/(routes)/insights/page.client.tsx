@@ -20,7 +20,7 @@ const PageClient = () => {
           description="A curated collection of articles offering expert perspectives, market updates, and meaningful insights shaped by years of experience in real estate development and residential innovation."
           titleWidth="lg:max-w-[500px] xl:max-w-[950px]"
           descWidth="lg:max-w-[660px] xl:max-w-[850px] 2xl:max-w-[800px]"
-          backgroundImage="/"
+          backgroundImage="/blog/hero.webp"
         />
         <FeaturedProjects />
         <BlogWithCTA />
