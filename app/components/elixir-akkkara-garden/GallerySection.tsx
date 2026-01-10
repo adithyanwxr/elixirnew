@@ -114,7 +114,7 @@ export default function GallerySection() {
         <div className="flex flex-col lg:flex-row justify-between gap-14">
           <div className=" lg:max-w-md">
             <MotionWrapper>
-              <p className="taghead-text text-[#8B8E72] font-inter">Elixir Akkara Garden</p>
+              <p className="taghead-text text-[#8B8E72] font-inter">Elixir Akkara Gardens</p>
             </MotionWrapper>
             <MotionWrapper>
               <h2 className="font-cormorant section-title text-white mt-[1.4rem]">
@@ -123,7 +123,7 @@ export default function GallerySection() {
             </MotionWrapper>
             <MotionWrapper>
               <p className="normal-text font-inter text-white lg:w-[80%] mt-[1.6rem]">
-                The Elixir Akkara Garden is all about luxury and comfort. We had put all our focus to provide extreme comfort as well as luxury
+                The Elixir Akkara Gardens is all about luxury and comfort. We had put all our focus to provide extreme comfort as well as luxury
               </p>
             </MotionWrapper>
           </div>

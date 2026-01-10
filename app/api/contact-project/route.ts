@@ -10,7 +10,7 @@ function getProjectSource(slug: string) {
   const map: Record<string, string> = {
     "elixir-anfield": "Elixir Anfield Project Page",
     "orchid": "Orchid Project Page",
-    "elixir-akkara-garden": "Elixir Akkara Garden Project Page",
+    "elixir-akkara-garden": "Elixir Akkara Gardens Project Page",
     "elixir-manavath-heights": "Elixir Manavath Heights Project Page",
     "elixir-super-luxury-villas": "Elixir Super Luxury Villas Project Page",
   };

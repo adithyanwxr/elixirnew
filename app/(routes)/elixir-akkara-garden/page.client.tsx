@@ -20,7 +20,7 @@ const PageClient = () => {
       <ReactLenis root />
       <main>
         <Hero
-          title="Elixir Akkara Garden"
+          title="Elixir Akkara Gardens"
           description="Thoughtfully crafted environments that blend comfort, design, and everyday functionality."
           titleWidth=""
           descWidth="lg:max-w-[660px] xl:max-w-[550px]"
