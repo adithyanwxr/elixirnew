@@ -18,7 +18,7 @@ const overviewItems = [
     {
         icon: "/project-detailed/icon3.svg",
         title: "Delivered ",
-        desc: "16 villas ",
+        desc: "16 Villas ",
     },
     {
         icon: "/project-detailed/icon4.svg",

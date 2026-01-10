@@ -21,7 +21,7 @@ export const projects: ProjectType[] = [
     title: "Elixir Akkara Gardens",
     location: "Near Regency Club, Kuttanellur, Kerala",
     status: "Delivered Successfully",
-    type: "12 villas/villa  ",
+    type: "12 Villas/Villa  ",
     description:
       "Elixir Akkara Gardens is a bespoke luxury villa and villa-plot community located at Anchery, Kuttanellur, Thrissur. Spread across 1.20 acres with 12 exclusive villas/plots, the project blends privacy, sustainability, and refined living. ",
     images: ["/completed-projects/Elixir-Akkara-Gardens1.webp", "/completed-projects/Elixir-Akkara-Gardens1.webp", "/completed-projects/Elixir-Akkara-Gardens1.webp", "/completed-projects/Elixir-Akkara-Gardens1.webp"],
@@ -74,7 +74,7 @@ export const projects: ProjectType[] = [
     title: "Elixir Super Luxury Villas",
     location: "Moscow Road, Anchery ",
     status: "Delivered Successfully",
-    type: "216 villas ",
+    type: "216 Villas ",
     description:
       "Elixir Super Luxury Villas is an exclusive, fully customisable luxury villa community located at Anchery, Thrissur. Spread across 1.60 acres with 16 premium villas, the project offers a perfect blend of privacy, sustainability, and sophisticated living.",
     images: ["/completed-projects/Elixir-Super-Luxury-Villas1.webp", "/completed-projects/Elixir-Super-Luxury-Villas1.webp", "/completed-projects/Elixir-Super-Luxury-Villas1.webp", "/completed-projects/Elixir-Super-Luxury-Villas1.webp"],
