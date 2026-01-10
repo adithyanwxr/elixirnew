@@ -50,7 +50,7 @@ const projects = [
     id: 4,
     side: "left-text",
     title: "Elixir Manavath Heights",
-    location: "Vadakkenchery, Alathur, Palakkad",
+    location: "Vadakkenchery, Palakkad",
     status: "Completed",
     category: "Completed Projects",
     beds: "Sold Out",

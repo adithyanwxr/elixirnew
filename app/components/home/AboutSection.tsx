@@ -7,6 +7,7 @@ import SmoothCounter from "../common/Counter";
 import Image from "next/image";
 import MotionWrapper from "../common/MotionWrapper";
 
+
 const AboutSection = () => {
   return (
     <div className="w-full bg-white">
@@ -74,7 +75,7 @@ const AboutSection = () => {
               {/* Years of Experience */}
               <div className="flex flex-col ">
                 <p className="font-cormorant section-title elixir-gray">
-                  <SmoothCounter end={18} />+
+                  <SmoothCounter end={15} />+
                 </p>
                 <p className="para-text text-[#7B7B7B] font-inter md:w-[80%]">
                   Years of Experience
@@ -94,7 +95,7 @@ const AboutSection = () => {
               {/* Builders Award */}
               <div className="flex flex-col ">
                 <p className="font-cormorant section-title elixir-gray">
-                  <SmoothCounter end={15} />+
+                  <SmoothCounter end={7} />+
                 </p>
                 <p className="para-text text-[#7B7B7B] font-inter md:w-[50%]">
                   Builders Award

@@ -54,7 +54,7 @@ export const projects: ProjectType[] = [
   {
     id: 3,
     title: "Elixir Manavath Heights",
-    location: "Vadakkenchery, Alathur, Palakkad ",
+    location: "Vadakkenchery, Palakkad ",
     status: "Delivered Successfully",
     type: "24 Acre ",
     description:

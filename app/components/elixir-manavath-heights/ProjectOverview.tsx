@@ -8,7 +8,7 @@ const overviewItems = [
     {
         icon: "/project-detailed/icon1.svg",
         title: "Location",
-        desc: "Vadakkenchery, Alathur, Palakkad ",
+        desc: "Vadakkenchery, Palakkad ",
     },
     {
         icon: "/project-detailed/icon2.svg",

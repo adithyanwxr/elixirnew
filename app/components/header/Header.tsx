@@ -86,7 +86,7 @@ const Header = () => {
       image: "/projects/Elixir-Manavath-Heights1.webp",
       status: "Completed Villa Project",
       statusColor: "text-red-500",
-      location: "Vadakkenchery, Alathur, Palakkad",
+      location: "Vadakkenchery, Palakkad",
     },
     {
       name: "The Orchid",

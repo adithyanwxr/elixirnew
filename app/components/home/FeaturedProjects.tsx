@@ -43,7 +43,7 @@ const projects = [
   },
   {
     title: "Elixir Manavath Heights",
-    location: "Vadakkenchery, Alathur, Palakkad",
+    location: "Vadakkenchery, Palakkad",
     feature: "Completed Land Development Project | Sold Out",
     count: "04 of 05",
     description:
@@ -102,7 +102,7 @@ const FeaturedProjects = () => {
           </div>
         </div>
 
-        {/* Desktop Section */}
+        {/* Desktop Project Section */}
         <MotionWrapper className="relative hidden lg:block w-full min-h-140 sm:min-h-200 h-dvh md:min-h-150 lg:min-h-175 2xl:h-211.75">
           <div className="absolute inset-0 z-12 bg-black/50"></div>
 

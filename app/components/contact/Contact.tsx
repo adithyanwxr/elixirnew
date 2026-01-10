@@ -306,7 +306,7 @@ export default function ContactSection() {
 
                 {isOpen && (
                   <div className="absolute z-20 w-full bg-white border border-gray-200 shadow-lg">
-                    {["General enquiry", "Book a visit", "Career"].map(
+                    {["General Enquiry", "Book a Visit", "Career"].map(
                       (option) => (
                         <button
                           key={option}
