@@ -8,7 +8,7 @@ const overviewItems = [
     {
         icon: "/project-detailed/icon1.svg",
         title: "Location",
-        desc: " kuttanellur, Thrissur",
+        desc: " Kuttanellur, Thrissur",
     },
     {
         icon: "/project-detailed/icon2.svg",

@@ -29,7 +29,7 @@ const projects = [
     category: "Completed Projects",
     beds: "Sold Out",
     area: "2/3/4/5 BHK",
-    desc: "The “Orchid” was one of our signature projects. The Orchid is all about luxury and comfort. We had put all our focus to provide extreme comfort as well as luxury via the project “The Orchid”. This signature work is situated at the heart of kuttanellur, which is one of the best residential areas in Thrissur.",
+    desc: "The “Orchid” was one of our signature projects. The Orchid is all about luxury and comfort. We had put all our focus to provide extreme comfort as well as luxury via the project “The Orchid”. This signature work is situated at the heart of Kuttanellur, which is one of the best residential areas in Thrissur.",
     image: "/projects/Orchid.webp",
     route: "/orchid",
   },

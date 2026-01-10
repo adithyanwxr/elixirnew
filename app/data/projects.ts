@@ -41,7 +41,7 @@ export const projects: ProjectType[] = [
     status: "Delivered Successfully",
     type: "2/3/4/5 BHK",
     description:
-      "The “Orchid” was one of our signature projects. The Orchid is all about luxury and comfort. We had put all our focus to provide extreme comfort as well as luxury via the project “The Orchid”. This signature work is situated at the heart of kuttanellur, which is one of the best residential areas in Thrissur. ",
+      "The “Orchid” was one of our signature projects. The Orchid is all about luxury and comfort. We had put all our focus to provide extreme comfort as well as luxury via the project “The Orchid”. This signature work is situated at the heart of Kuttanellur, which is one of the best residential areas in Thrissur. ",
     images: ["/completed-projects/Orchid1.webp", "/projects/hero.webp", "/projects/hero.webp", "/projects/hero.webp"],
     testimonial: "We had many choices when we looked for affordable flats with the required amenities. But we stumbled at Elixir Homes because of its ideal layout and utilities. The wiring duct, and drainage system were all just perfect. Moreover, the dealings were super perfect. I didn’t have to worry about a thing because Elixir Homes is an Ethical Builder. ",
     profile: {
