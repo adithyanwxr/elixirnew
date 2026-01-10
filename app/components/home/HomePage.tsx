@@ -12,17 +12,17 @@ import Testimonials from "./TestimonialsHome";
 const HomePage = () => {
   const lenis = useLenis((lenis) => {
     // called every scroll
-    console.log("Lenis initialized");
+    // console.log("Lenis initialized");
   });
 
-  const fadeShow = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6, ease: "easeInOut" },
-    },
-  };
+  // const fadeShow = {
+  //   hidden: { opacity: 0, y: 30 },
+  //   visible: {
+  //     opacity: 1,
+  //     y: 0,
+  //     transition: { duration: 0.6, ease: "easeInOut" },
+  //   },
+  // };
   return (
     <>
       <ReactLenis root />

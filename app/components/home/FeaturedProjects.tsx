@@ -1,16 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import RedButton from "../common/RedButton";
 import Image from "next/image";
 import UnderlineButton from "../common/UnderlineButton";
 import { motion } from "framer-motion";
 import MotionWrapper from "../common/MotionWrapper";
+import { useLenis } from "lenis/react";
 
 const projects = [
   {
     title: "Elixir Anfield",
-    location: "Near Hill Gardens Colony & HiLite Mall, \n Thrissur - Kuttanellur Main Road",
+    location:
+      "Near Hill Gardens Colony & HiLite Mall, \n Thrissur - Kuttanellur Main Road",
     feature: "Ongoing Apartment Project",
     count: "01 of 05",
     description:
@@ -43,7 +45,7 @@ const projects = [
   },
   {
     title: "Elixir Manavath Heights",
-    location: "Vadakkenchery, Palakkad",
+    location: "Vadakkenchery, Alathur, Palakkad",
     feature: "Completed Land Development Project | Sold Out",
     count: "04 of 05",
     description:
@@ -67,12 +69,98 @@ const projects = [
 
 const FeaturedProjects = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const lenis = useLenis();
+
+  const sectionRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    let released = false;
+
+    const el = sectionRef.current;
+    if (!el) return;
+
+    let locked = false;
+
+    const isEnterZone = () => {
+      const r = el.getBoundingClientRect();
+      const vh = window.innerHeight;
+      return r.top < vh * 0.15 && r.bottom > vh * 0.95;
+    };
+    const isFullyOut = () => {
+      const r = el.getBoundingClientRect();
+      return r.bottom < 0 || r.top > window.innerHeight;
+    };
+
+    const isExitZone = () => {
+      const r = el.getBoundingClientRect();
+      const vh = window.innerHeight;
+      return r.top > vh * 0.25 || r.bottom < vh * 0.75;
+    };
+    const onScroll = () => {
+      if (isFullyOut()) {
+        released = false;
+      }
+
+      if (released) return;
+
+      if (!locked && isEnterZone()) {
+        locked = true;
+        lenis?.stop();
+      }
+
+      if (locked && isExitZone()) {
+        locked = false;
+        lenis?.start();
+      }
+    };
+
+    let cooldown = false;
+    const onWheel = (e: WheelEvent) => {
+      if (!locked) return;
+      if (cooldown) return;
+
+      e.preventDefault();
+
+      cooldown = true;
+      setTimeout(() => (cooldown = false), 700); // slide duration
+
+      if (e.deltaY > 0) {
+        setActiveIndex((i) => {
+          if (i === projects.length - 1) {
+            lenis?.start();
+            locked = false;
+            released = true;
+            return i;
+          }
+          return i + 1;
+        });
+      } else {
+        setActiveIndex((i) => {
+          if (i === 0) {
+            lenis?.start();
+            locked = false;
+            released = true;
+            return i;
+          }
+          return i - 1;
+        });
+      }
+    };
+
+    window.addEventListener("scroll", onScroll);
+    window.addEventListener("wheel", onWheel, { passive: false });
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("wheel", onWheel);
+      document.body.style.overflow = "";
+    };
+  }, [lenis]);
 
   const active = projects[activeIndex];
 
   return (
     <>
-      <div className="w-full elixir-black-bg">
+      <section className="w-full elixir-black-bg">
         <div className="w-[95%] sm:w-[90%] xl:w-[86.9%] max-w-350 mx-auto pt-20 pb-12.5 xl:pt-39.5 xl:pb-19.25">
           <div className="w-full h-fit flex justify-between">
             <div className="w-full h-auto md:w-[48%] lg:w-[45%] xl:w-182.5">
@@ -102,8 +190,12 @@ const FeaturedProjects = () => {
           </div>
         </div>
 
-        {/* Desktop Project Section */}
-        <MotionWrapper className="relative hidden lg:block w-full min-h-140 sm:min-h-200 h-dvh md:min-h-150 lg:min-h-175 2xl:h-211.75">
+        {/* Desktop Section */}
+        <div
+          ref={sectionRef}
+          className="relative hidden lg:block w-full min-h-140 sm:min-h-200 h-dvh md:min-h-150 lg:min-h-175 2xl:h-211.75"
+        >
+          {/* scroll spacer */}
           <div className="absolute inset-0 z-12 bg-black/50"></div>
 
           {/* HERO IMAGE */}
@@ -193,88 +285,87 @@ const FeaturedProjects = () => {
               </div>
             </div>
           </div>
-        </MotionWrapper>
+        </div>
+      </section>
+      {/* ------------------ MOBILE ------------------ */}
+      <MotionWrapper className="relative lg:hidden w-full min-h-210 ">
+        <div className="absolute inset-0 z-12 bg-black/60"></div>
 
-        {/* ------------------ MOBILE ------------------ */}
-        <MotionWrapper className="relative lg:hidden w-full min-h-210 ">
-          <div className="absolute inset-0 z-12 bg-black/60"></div>
+        <motion.div
+          key={activeIndex}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6 }}
+          className="absolute z-10 inset-0"
+        >
+          <Image
+            src={active.hero}
+            alt="Hero Image"
+            fill
+            className="object-cover"
+          />
+        </motion.div>
 
-          <motion.div
-            key={activeIndex}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6 }}
-            className="absolute z-10 inset-0"
-          >
-            <Image
-              src={active.hero}
-              alt="Hero Image"
-              fill
-              className="object-cover"
-            />
-          </motion.div>
+        {/* MOBILE THUMBNAILS */}
+        <div className="w-full absolute z-15 top-10 right-0 ">
+          <div className="flex justify-end w-[95%] sm:w-[90%] mx-auto ">
+            <div className="flex flex-col gap-y-5">
+              {projects.map((project, i) => (
+                <div
+                  key={i}
+                  onClick={() => setActiveIndex(i)}
+                  className="cursor-pointer"
+                >
+                  <div className="w-25 h-15 relative">
+                    <Image
+                      src={project.thumbs[0]}
+                      alt={project.title}
+                      fill
+                      className="object-cover"
+                    />
 
-          {/* MOBILE THUMBNAILS */}
-          <div className="w-full absolute z-15 top-10 right-0 ">
-            <div className="flex justify-end w-[95%] sm:w-[90%] mx-auto ">
-              <div className="flex flex-col gap-y-5">
-                {projects.map((project, i) => (
-                  <div
-                    key={i}
-                    onClick={() => setActiveIndex(i)}
-                    className="cursor-pointer"
-                  >
-                    <div className="w-25 h-15 relative">
-                      <Image
-                        src={project.thumbs[0]}
-                        alt={project.title}
-                        fill
-                        className="object-cover"
-                      />
-
-                      {/* active underline */}
-                      {activeIndex === i && (
-                        <span className="w-[75%] absolute -bottom-2.5 h-px bg-white"></span>
-                      )}
-                    </div>
+                    {/* active underline */}
+                    {activeIndex === i && (
+                      <span className="w-[75%] absolute -bottom-2.5 h-px bg-white"></span>
+                    )}
                   </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* MOBILE CONTENT */}
-          <div className="w-full flex absolute bottom-12 z-15">
-            <div className="w-[95%] sm:w-[90%] mx-auto">
-              <p className="para-text text-white font-inter mb-3">
-                {active.count}
-              </p>
-              <h2 className="font-cormorant section-title text-white">
-                {active.title}
-              </h2>
-
-              <div className="flex flex-col w-full border-t-[0.5px] border-white/50 mt-6 pt-3">
-                <div className="flex justify-between">
-                  <p className="para-text text-white font-inter">
-                    {active.feature}
-                  </p>
-                  {/* <p className="para-text text-white font-inter">{active.count}</p> */}
                 </div>
-
-                <p className="para-text text-white font-inter mt-2">
-                  {active.location}
-                </p>
-              </div>
-
-              <p className="normal-text font-inter text-white mt-10 mb-6 lg:max-w-165">
-                {active.description}
-              </p>
-
-              <UnderlineButton text="VIEW PROJECTS" link={active.route} />
+              ))}
             </div>
           </div>
-        </MotionWrapper>
-      </div>
+        </div>
+
+        {/* MOBILE CONTENT */}
+        <div className="w-full flex absolute bottom-12 z-15">
+          <div className="w-[95%] sm:w-[90%] mx-auto">
+            <p className="para-text text-white font-inter mb-3">
+              {active.count}
+            </p>
+            <h2 className="font-cormorant section-title text-white">
+              {active.title}
+            </h2>
+
+            <div className="flex flex-col w-full border-t-[0.5px] border-white/50 mt-6 pt-3">
+              <div className="flex justify-between">
+                <p className="para-text text-white font-inter">
+                  {active.feature}
+                </p>
+                {/* <p className="para-text text-white font-inter">{active.count}</p> */}
+              </div>
+
+              <p className="para-text text-white font-inter mt-2">
+                {active.location}
+              </p>
+            </div>
+
+            <p className="normal-text font-inter text-white mt-10 mb-6 lg:max-w-165">
+              {active.description}
+            </p>
+
+            <UnderlineButton text="VIEW PROJECTS" link={active.route} />
+          </div>
+        </div>
+      </MotionWrapper>
     </>
   );
 };
