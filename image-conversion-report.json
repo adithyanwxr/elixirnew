@@ -1,0 +1,54 @@
+[
+  {
+    "from": "anfield/basement.jpg",
+    "to": "anfield/basement.webp"
+  },
+  {
+    "from": "anfield/fifthfloor.jpg",
+    "to": "anfield/fifthfloor.webp"
+  },
+  {
+    "from": "anfield/firstfloor.jpg",
+    "to": "anfield/firstfloor.webp"
+  },
+  {
+    "from": "anfield/ground.jpg",
+    "to": "anfield/ground.webp"
+  },
+  {
+    "from": "anfield/terrace.jpg",
+    "to": "anfield/terrace.webp"
+  },
+  {
+    "from": "anfield/type-a.jpg",
+    "to": "anfield/type-a.webp"
+  },
+  {
+    "from": "anfield/type-b.jpg",
+    "to": "anfield/type-b.webp"
+  },
+  {
+    "from": "anfield/type-c.jpg",
+    "to": "anfield/type-c.webp"
+  },
+  {
+    "from": "anfield/type-d.jpg",
+    "to": "anfield/type-d.webp"
+  },
+  {
+    "from": "anfield/type-e.jpg",
+    "to": "anfield/type-e.webp"
+  },
+  {
+    "from": "anfield/type-f.jpg",
+    "to": "anfield/type-f.webp"
+  },
+  {
+    "from": "anfield/typical1.jpg",
+    "to": "anfield/typical1.webp"
+  },
+  {
+    "from": "anfield/typical2.jpg",
+    "to": "anfield/typical2.webp"
+  }
+]
