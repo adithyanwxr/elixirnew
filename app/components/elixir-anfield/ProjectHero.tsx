@@ -104,7 +104,7 @@ const ProjectHero: React.FC<HeroProps> = ({
       <div className="absolute top-[5.6rem] md:top-[10.6rem] z-47 right-20 md:right-10 lg:right-12 xl:right-[7.2rem] 2xl:right-36 text-white flex items-center gap-4">
         <div className="relative size-20 shrink-0">
           <Image
-            src="/home/Elixir Anfield-RERA QR Code.webp"
+            src="/home/Elixir Anfield-RERA QR Code.png"
             alt="QR Code"
             fill
             className="object-contain"

@@ -71,7 +71,7 @@ const OurStoryBegins = () => {
             link: "/about",   
           },
           {
-            img: "/about/img1.jpg",
+            img: "/about/img1.webp",
             title: "Our Forward Vision",
             desc: "Elixir Homes stands as a symbol of refined architecture and uncompromised quality. With every project, we aim to create living spaces that embody elegance",
             button: "EXPLORE THE ELIXIR PORTFOLIO",

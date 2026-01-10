@@ -26,7 +26,7 @@ const PageClient = () => {
                     descWidth="lg:max-w-[660px] xl:max-w-[550px]"
                     showButton
                     buttonText="MORE DETAILS"
-                    backgroundImage="/home/Orchid1.webp"
+                    backgroundImage="/individual-projects/orchidhero.jpg"
                 />
                 <ProjectOverview />
                 {/* <GallerySection /> */}

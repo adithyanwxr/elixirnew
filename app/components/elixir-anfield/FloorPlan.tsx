@@ -119,14 +119,14 @@ export default function FloorPlan() {
             </MotionWrapper>
 
             {/* MOBILE BUTTON (below XL only) */}
-            <MotionWrapper className="flex xl:hidden mt-10 md:w-[48%]">
+            {/* <MotionWrapper className="flex xl:hidden mt-10 md:w-[48%]">
               <RedButtonProject
                 text="DOWNLOAD ALL FLOOR PLANS"
                 isWidthFull
                 textSize="text-[16px]"
                 padding="px-4 py-3"
               />
-            </MotionWrapper>
+            </MotionWrapper> */}
           </div>
 
           {/* RIGHT SECTION (XL AND ABOVE ONLY) */}
