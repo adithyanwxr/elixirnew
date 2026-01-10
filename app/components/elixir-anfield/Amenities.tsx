@@ -18,7 +18,7 @@ const amenities = [
   {
     icon: "/projects/waste.svg",
     title: " Incinerator (Waste Management)",
-    desc: "Eco-friendly, hygienic waste management for cleaner community.",
+    desc: "Sustainable solid waste disposal through an incinerator and efficient liquid waste treatment via STP.",
   },
   {
     icon: "/projects/easy.svg",

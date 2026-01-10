@@ -151,7 +151,7 @@ Ground Floor (Below SBI Kuttanellur Branch) Kuttanellur P.O, Thrissur, Kerala-68
         href="tel:+918946759810"
         className="text-white para-text font-inter"
       >
-        +91 90487 33355
+        +91 9048733355
       </a>
     </div>
 
@@ -201,7 +201,7 @@ Ground Floor (Below SBI Kuttanellur Branch) Kuttanellur P.O, Thrissur, Kerala-68
         href="tel:+919048733355"
         className="text-white para-text font-inter"
       >
-        +91 90487 33355
+        +91 9048733355
       </a>
     </div>
 

@@ -155,7 +155,7 @@ export default function ContactSection() {
                   height={30}
                 />
                 <p className="text-[18px] leading-relaxed font-poppins text-[#2c2c2c]">
-                  +91 90487 33355
+                  +91 9048733355
                 </p>
               </a>
             </MotionWrapper>
@@ -195,7 +195,7 @@ export default function ContactSection() {
                       className="opacity-80"
                     />
                     <p className="text-[16px] text-[#2c2c2c] font-inter">
-                      +971 55 169-8568
+                      +971 551698568
                     </p>
                   </MotionWrapper>
                 </div>

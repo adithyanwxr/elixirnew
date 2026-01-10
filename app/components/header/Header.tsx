@@ -184,7 +184,7 @@ const Header = () => {
       transition
       whitespace-nowrap
     "
-                  aria-label="Call +91 90487 33355"
+                  aria-label="Call +91 9048733355"
                 >
                   <span>Ring us Now</span>
                   <div className="relative size-4 2xl:w-5 2xl:h-5">
@@ -458,7 +458,7 @@ const Header = () => {
                 className="flex items-center gap-3 text-white text-lg"
               >
                 <Phone size={18} className="text-white/80" />
-                <span className="text-[20px]">+971551698568</span>
+                <span className="text-[20px]">+971 551698568</span>
               </a>
             </div>
           </div>
