@@ -277,7 +277,7 @@ export default function ContactSection() {
           <div className="relative">
             <MotionWrapper className="flex flex-col space-y-3">
               <label className="text-sm font-medium text-black">
-                Project / Inquiry Type *
+                Project / Enquiry Type *
               </label>
 
               <div className="relative" ref={dropdownRef}>
@@ -289,7 +289,7 @@ export default function ContactSection() {
         flex items-center justify-between
         ${selectedInquiry ? "text-black" : "text-[#7b7b7b]"}`}
                 >
-                  <span>{selectedInquiry || "Choose Project / Inquiry"}</span>
+                  <span>{selectedInquiry || "Choose Project / Enquiry"}</span>
 
                   <svg
                     className={`w-5 h-5 transition-transform duration-200 ${

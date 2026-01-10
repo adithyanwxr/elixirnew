@@ -253,7 +253,7 @@ export default function ContactSection() {
           {/* SELECT */}
           <MotionWrapper className="flex flex-col space-y-3">
             <label className="text-sm font-medium text-black">
-              Project / Inquiry Type *
+              Project / Enquiry Type *
             </label>
 
             <div className="relative">
@@ -269,7 +269,7 @@ export default function ContactSection() {
                 }}
               >
                 <option value="" disabled>
-                   Project/Inquiry
+                   Project/Enquiry
                 </option>
                 <option>General Enquiry</option>
                 <option>Book a Visit</option>
