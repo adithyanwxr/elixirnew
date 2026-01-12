@@ -60,7 +60,7 @@ export default function ProjectOverview() {
                 {/* Description */}
                 <MotionWrapper>
                     <p className="text-[#7B7B7B] normal-text mb-10 mt-11 w-[98%]">
-                        Elixir Anfield is the fifth project of Elixir Homes. This ongoing project is strategically located in Anchery, Kuttanellur, very near to Hilite Shopping Mall & National Highway Kuttanellur and enroute to Zoological Park, Puthur, Thrissur.
+                        Elixir Anfield is the fifth project of Elixir Homes. This ongoing project is strategically located in Anchery, Kuttanellur, very near to Hilite Shopping Mall & National Highway Kuttanellur and en route to Zoological Park, Puthur, Thrissur.
 
                         Elixir Anfield’s location boasts one of the finest residential localities in Thrissur. Various residential colonies such as Hill Gardens, Lesona Enclave, Garden Enclave, Green Valley, Silent Valley etc are all located nearby.
                     </p>

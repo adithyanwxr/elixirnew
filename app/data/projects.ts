@@ -58,7 +58,7 @@ export const projects: ProjectType[] = [
     status: "Delivered Successfully",
     type: "24 Acre ",
     description:
-      "Elixir Manavath Heights was a land-development project located at Vadakkenchery, near Alathur in Palakad district. This was a 4 Acre project, wherein Elixir Homes developed the entire land. The development activities started in early 2020 & the entire land was fully sold out in 2021. ",
+      "Elixir Manavath Heights was a land-development project located at Vadakkenchery, near Alathur in Palakkad district. This was a 4 Acre project, wherein Elixir Homes developed the entire land. The development activities started in early 2020 & the entire land was fully sold out in 2021. ",
    images: ["/projects/Elixir-Manavath-Heights1.webp"],
     testimonial:
       "Our experience with Elixir Homes was truly smooth and reassuring. Their excellent communication, detailed designs, and caring customer service made the entire process completely stress-free ",
