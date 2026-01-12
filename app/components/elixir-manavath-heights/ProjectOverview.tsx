@@ -18,11 +18,11 @@ const overviewItems = [
     {
         icon: "/project-detailed/icon3.svg",
         title: "Delivered ",
-        desc: "4 Acre Project ",
+        desc: "4-Acre Project ",
     },
     {
         icon: "/project-detailed/icon4.svg",
-        title: "Project Highlight ",
+        title: "Project Highlights ",
         desc: " Land Development ",
     },
 ];
@@ -42,7 +42,7 @@ export default function ProjectOverview() {
                 {/* Description */}
                 <MotionWrapper>
                     <p className="text-[#7B7B7B] normal-text mb-10 mt-11 w-[98%]">
-                        Elixir Manavath Heights is a premium residential land development project by Elixir Homes, located at Vadakkenchery near Alathur in Palakkad district, Kerala. Spread across 4 acres, this thoughtfully planned project features well-laid plots with modern infrastructure, ideal for building dream homes in a rapidly developing residential zone.
+                        Elixir Manavath Heights is a premium residential land development project by Elixir Homes, located at Vadakkenchery, near Alathur in Palakkad district, Kerala. Spread across 4 acres, this thoughtfully planned project features well-laid plots with modern infrastructure, ideal for building dream homes in a rapidly developing residential zone.
                     </p>
                 </MotionWrapper>
                 <MotionWrapper>

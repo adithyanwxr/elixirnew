@@ -72,7 +72,7 @@ const WhoWeAre = () => {
                   <SmoothCounter end={7} />+
                 </p>
                 <p className="para-text xl:mt-3.5 text-[#7B7B7B] font-inter">
-                  Builders Award
+                  Builders Awards
                 </p>
               </div>
 

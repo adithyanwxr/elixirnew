@@ -34,8 +34,7 @@ const AboutSection = () => {
 
               <p className="para-text font-inter">
                 Our commitment to precision, sustainability, and attention to
-                detail has shaped us into one of the most trusted ones. Our
-                commitment to precision, sustainability, and attention
+                detail has shaped us into one of the most trusted ones.
               </p>
             </MotionWrapper>
 

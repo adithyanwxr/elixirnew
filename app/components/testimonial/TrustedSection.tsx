@@ -14,7 +14,7 @@ export default function TrustedSection() {
                         <MotionWrapper>
                             <h2 className="font-cormorant section-title text-black mt-4 lg:mt-[23px] xl:mt-[23px] lg:w-[80%] xl:w-[60%] 2xl:w-[50%]">
                                 Trusted By Families Who
-                                Choose To Live With US
+                                Choose To Live With Us
                             </h2>
                         </MotionWrapper>
                         <MotionWrapper>

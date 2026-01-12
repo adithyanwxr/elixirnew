@@ -147,7 +147,7 @@ export default function Footer() {
                     href="/legal-and-policy"
                     className="text-white para-text font-inter"
                   >
-                    Legal And Policy
+                    Legal and Policy
                   </a>
                 </li>
               </ul>
@@ -214,8 +214,8 @@ export default function Footer() {
                   />
 
                   <p className="text-white para-text font-inter">
-                    Elixir Villas & Apartments Pvt.Ltd Ground Floor (Below SBI
-                    Kuttanellur Branch) Kuttanellur P.O, Thrissur, Kerala-680014
+                    Elixir Villas & Apartments Pvt. Ltd Ground Floor (Below SBI
+                    Kuttanellur Branch) Kuttanellur P.O., Thrissur, Kerala - 680014
                   </p>
                 </div>
 
@@ -258,11 +258,11 @@ export default function Footer() {
           <div className=" items-center gap-3">
             <p className="text-white para-text font-inter text-center">
               <span className="font-medium">
-                Elixir Villas & Apartments Pvt.Ltd.
+                Elixir Villas & Apartments Pvt. Ltd.
               </span>{" "}
               <br />
               Ground Floor (Below SBI Kuttanellur Branch), <br />
-              Kuttanellur P.O, Thrissur, Kerala - 680014
+              Kuttanellur P.O., Thrissur, Kerala - 680014
             </p>
           </div>
 
@@ -310,7 +310,7 @@ export default function Footer() {
         <div className="w-[95%] sm:w-[95%] xl:w-[90%] max-w-350 mx-auto py-20">
           <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start gap-4 text-center sm:text-left">
             <p className="text-[15px] md:text-[16px] font-inter text-white/60">
-              © 2026 Elixir Villas & Apartments Pvt.Ltd. | All Rights Reserved.
+              © 2026 Elixir Villas & Apartments Pvt. Ltd. | All Rights Reserved.
             </p>
 
             <p className="text-[15px] md:text-[16px] font-inter text-white/60 font-extra-light">

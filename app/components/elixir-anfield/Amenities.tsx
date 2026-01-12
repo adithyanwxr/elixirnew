@@ -35,7 +35,7 @@ const amenities1 = [
   },
   {
     icon: "/projects/i6.svg",
-    title: "CCTV, 24 Hrs Security ",
+    title: "CCTV, 24 Hrs. Security ",
     desc: "24/7 CCTV and trained security ensure complete peace of mind.",
   },
   {

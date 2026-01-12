@@ -12,7 +12,7 @@ const categories = [
   "Landscape & community spaces",
   "World-Class Common Amenities",
   "Premium Infrastructure & Safety",
-  "Eco Friendly Living",
+  "Eco-Friendly Living",
 ];
 
 const images = [

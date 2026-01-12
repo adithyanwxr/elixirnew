@@ -8,7 +8,7 @@ const overviewItemsGrid = [
     {
         icon: "/home-project/p5.svg",
         title: "Location",
-        desc: "Elixir Villas & Apartments (P) LTD, Kuttanellur P.O, Thrissur, Kerala ",
+        desc: "Elixir Villas & Apartments P) ltd, Kuttanellur P.O., Thrissur, Kerala ",
 
     },
     {
@@ -60,16 +60,16 @@ export default function ProjectOverview() {
                 {/* Description */}
                 <MotionWrapper>
                     <p className="text-[#7B7B7B] normal-text mb-10 mt-11 w-[98%]">
-                        Elixir Anfield is the fifth project of Elixir Homes. This ongoing project is strategically located in Anchery, Kuttanellur, very near to Hilite Shopping Mall & National Highway Kuttanellur and en route to Zoological Park, Puthur, Thrissur.
+                        Elixir Anfield is the fifth project of Elixir Homes. This ongoing project is strategically located in Anchery, Kuttanellur, very near to HiLite Mall & National Highway Kuttanellur and en route to Zoological Park, Puthur, Thrissur.
 
-                        Elixir Anfield’s location boasts one of the finest residential localities in Thrissur. Various residential colonies such as Hill Gardens, Lesona Enclave, Garden Enclave, Green Valley, Silent Valley etc are all located nearby.
+                        Elixir Anfield’s location boasts one of the finest residential localities in Thrissur. Various residential colonies such as Hill Gardens, Lesona Enclave, Garden Enclave, Green Valley, Silent Valley etc. are all located nearby.
                     </p>
                 </MotionWrapper>
 
                 <MotionWrapper>
                     <p className="text-[#7B7B7B] leading-[1.8] mb-12 normal-text w-[98%]">
-                        Other nearby premium landmarks include Regency Club Kuttanellur, Chakolas Pavilion Anchery etc. Various worship places such as St John Bosco Church Mariyapuram, Ancherykkavu Temple Anchery etc, various schools, colleges etc are also nearby.
-The completion & key handover is expected in December 2027 as the construction works are ongoing in full swing. Elixir Anfield is approved by various banks such as State Bank of India, Canara Bank, Bank of Maharashtra etc. Therefore your Home Loan requirements will be taken care at very fast pace professionally.
+                        Other nearby premium landmarks include Regency Club Kuttanellur, Chakolas Pavilion Anchery etc.. Various worship places such as St John Bosco Church Mariyapuram, Ancherykkavu Temple Anchery etc., various schools, colleges etc. are also nearby.
+The completion & key handover is expected in December 2027 as the construction works are ongoing in full swing. Elixir Anfield is approved by various banks such as State Bank of India, Canara Bank, Bank of Maharashtra etc.. Therefore your Home Loan requirements will be taken care at very fast pace professionally.
                          </p>
                 </MotionWrapper>
 

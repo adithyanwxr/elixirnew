@@ -22,7 +22,7 @@ const overviewItems = [
     },
     {
         icon: "/project-detailed/icon4.svg",
-        title: "Project Highlight ",
+        title: "Project Highlights ",
         desc: "Project With 80% Open Space",
     },
 ];
@@ -42,7 +42,7 @@ export default function ProjectOverview() {
                 {/* Description */}
                 <MotionWrapper>
                     <p className="text-[#7B7B7B] normal-text mb-10 mt-11 w-[98%]">
-                        The “Orchid” was one of our signature projects. The Orchid is all about luxury and comfort. We had put all our focus to provide extreme comfort as well as luxury via the project “The Orchid”. This signature work is situated at the heart of Kuttanellur, which is one of the best residential areas in Thrissur. The Orchid is the first project in Thrissur & Kerala to set aside 80% of the entire land area for common amenities and First in Thrissur & Kerala to allocate dedicated visitors car parking slots without any extra cost.
+                        The “Orchid” was one of our signature projects. The Orchid is all about luxury and comfort. We had put all our focus to provide extreme comfort as well as luxury via the project “The Orchid”. This signature work is situated at the heart of Kuttanellur, which is one of the best residential areas in Thrissur. The Orchid is the first project in Thrissur & Kerala to set aside 80% of the entire land area for common amenities and First in Thrissur & Kerala to allocate dedicated visitor’s car parking slots without any extra cost.
                     </p>
                 </MotionWrapper>
                 <MotionWrapper>

@@ -38,7 +38,7 @@ const OurStoryBegins = () => {
             <div className="flex h-auto lg:flex-row justify-between">
               <MotionWrapper className="h-fit">
                 <p className="normal-text font-inter text-white mb-5 lg:max-w-85 lg:mb-7.5 xl:mb-5.25 xl:max-w-122.5">
-                  From the start, our mission has been to create homes that feel right in every way. We believe not in grand promises, but in delivering spaces that truly feel like yours. Visit any project or speak with an Elixir homeowner, and you’ll experience the difference in how we build and care.
+                  From the start, our mission has been to create homes that feel right in every way. We believe not in grand promises, but in delivering spaces that truly feel like yours. Visit any project or speak with an Elixir home owner, and you’ll experience the difference in how we build and care.
                 </p>
                 <UnderlineButton text="EXPLORE OUR PROJECTS" link="/projects" />
               </MotionWrapper>

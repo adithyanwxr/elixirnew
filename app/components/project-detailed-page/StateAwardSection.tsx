@@ -20,7 +20,7 @@ export default function StateAwardSection() {
 
             {/* EYEBROW TEXT */}
             <p className="taghead-text text-[#8b8e72] font-inter xl:mt-0.5 ">
-             Premium Builder of the Year AWARD
+             Premium Builder of the Year Award
             </p>
 
             {/* HEADING */}

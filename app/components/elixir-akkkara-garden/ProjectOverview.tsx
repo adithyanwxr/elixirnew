@@ -18,11 +18,11 @@ const overviewItems = [
   {
     icon: "/project-detailed/icon3.svg",
     title: "Delivered  ",
-    desc: "12 Villas/Villa Plots",
+    desc: "12 villas / villa plots",
   },
   {
     icon: "/project-detailed/icon4.svg",
-    title: "Project Highlight ",
+    title: "Project Highlights ",
     desc: "Customisable Premium Luxury Villa ",
   },
 ];
@@ -42,7 +42,7 @@ export default function ProjectOverview() {
         <MotionWrapper>
           <p className="text-[#7B7B7B] normal-text mb-10 mt-11 w-[98%]">
             Elixir Akkara Gardens is a fully Customisable Premium Luxury villa
-            and villa-plot community located at Anchery, Kuttanellur, Thrissur.
+            and villa plot community located at Anchery, Kuttanellur, Thrissur.
             Spread across 1.20 acres and comprising just 12 exclusive villas and
             villa plots, the project offers a perfect balance of privacy,
             comfort, and refined living. Each villa is thoughtfully designed

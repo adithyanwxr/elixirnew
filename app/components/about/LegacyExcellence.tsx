@@ -41,7 +41,7 @@ const LegacyExcellence = () => {
                 />
               </div>
               <h6 className="regular-heading font-cormorant mt-7  lg:mt-13.75 text-[#1b1a1f]">Craftsmanship</h6>
-              <p className="normal-text text-[#7B7B7B] font-inter mt-2.75">Craftsmanship shapes every Elixir home-strong foundations, comfortable spaces, elegant finishes-all crafted with care-to-last.</p>
+              <p className="normal-text text-[#7B7B7B] font-inter mt-2.75">Craftsmanship shapes every Elixir home-strong foundations, comfortable spaces, elegant finishes-all crafted with care to last.</p>
             </div>
             <div className="col-span-1">
               <div className="w-12 h-12 relative">

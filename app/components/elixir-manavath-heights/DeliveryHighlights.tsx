@@ -14,7 +14,7 @@ const deliveryItems = [
   },
   {
     title: "Strategic Residential Location ",
-    desc: " Located at Vadakkenchery near Alathur, the project offers excellent connectivity, peaceful surroundings, and strong long-term investment potential. ",
+    desc: " Located at Vadakkenchery, near Alathur, the project offers excellent connectivity, peaceful surroundings, and strong long-term investment potential. ",
   },
 ];
 

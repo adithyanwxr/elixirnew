@@ -12,7 +12,7 @@ const testimonials = [
         quoteIcon: "/testimonial/quoteicon.svg",
     },
     {
-        text: `“ We had many choices when we looked for affordable flats with the required amenities. But we stumbled at Elixir Homes because of its ideal layout and utilities. The wiring duct, and drainage system were all just perfect. Moreover, the dealings were super perfect. I didn’t have to worry about a thing because Elixir Homes is an Ethical Builder. ”`,
+        text: `“ We had many choices when we looked for affordable flats with the required amenities. But we stumbled at Elixir Homes because of its ideal layout and utilities. the wiring duct and drainage system were all just perfect. Moreover, the dealings were super perfect. I didn’t have to worry about a thing because Elixir Homes is an Ethical Builder. ”`,
         name: "Joby Payyappilly",
         role: "Josons Hardwares, Chalakudy",
         image: "/home/t2.svg",
@@ -21,7 +21,7 @@ const testimonials = [
     {
         text: `“ Our experience with Elixir Homes was truly smooth and reassuring. Their excellent communication, detailed designs, and caring customer service made the entire process completely stress-free ”`,
         name: "Atfel Dcunha & family",
-        role: "Abhu Dhabi, UAE",
+        role: "Abu Dhabi, UAE",
         image: "/home/t3.svg",
         quoteIcon: "/testimonial/quoteicon.svg",
     },
@@ -34,7 +34,7 @@ const testimonials = [
     },
     {
         text: `“ We had a great experience with the Elixir team- very prompt, professional, and committed to excellent quality. Their flats and villas are spacious, with well-designed common areas and great amenities. Highly recommended for anyone looking for a perfect home! ”`,
-        name: "Mathew francis",
+        name: "Mathew Francis",
         role: "",
         image: "/home/t1.svg",
         quoteIcon: "/testimonial/quoteicon.svg",

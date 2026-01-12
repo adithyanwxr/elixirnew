@@ -86,12 +86,12 @@ export const projectGalleries: ProjectGallery[] = [
     label: "PROJECT [3]",
     title: "Elixir Akkara Gardens",
     description:
-      " Fully customisable premium luxury villa/villa plot project located at Anchery, Kuttanellur, Thrissur.  ",
+      " Fully customisable premium luxury villa / villa plot project located at Anchery, Kuttanellur, Thrissur.  ",
     categories: [
       "Landscape & community spaces",
       "World-Class Common Amenities",
       "Premium Infrastructure & Safety",
-      "Eco Friendly Living",
+      "Eco-Friendly Living",
     ],
     route: "/elixir-akkara-garden",
     images: [

@@ -22,7 +22,7 @@ const overviewItems = [
     },
     {
         icon: "/project-detailed/icon4.svg",
-        title: "Project Highlight ",
+        title: "Project Highlights ",
         desc: "Super Luxury Villas",
     },
 ];
@@ -47,7 +47,7 @@ export default function ProjectOverview() {
                 </MotionWrapper>
                 <MotionWrapper>
                     <p className="text-[#7B7B7B] leading-[1.8] mb-12 normal-text w-[98%]">
-                        The project features an array of world-class common amenities including a landscaped children’s park, underground KSEB cabling with a dedicated transformer, efficient rainwater harvesting systems, heavy-duty shot-blasted paving tiles for internal roads, a common bore well, and a fully equipped clubhouse with swimming pool, gymnasium, incinerator, and an overhead water tank-ensuring a truly luxurious and self-sustained lifestyle.
+                        The project features an array of world-class common amenities including a landscaped children’s park, underground KSEB cabling with a dedicated transformer, efficient rainwater harvesting systems, heavy-duty shot-blasted paving tiles for internal roads, a common bore well, and a fully equipped clubhouse with swimming pool, gymnasium, incinerator, and an overhead water tank, ensuring a truly luxurious and self-sustained lifestyle.
                     </p>
                 </MotionWrapper>
 
