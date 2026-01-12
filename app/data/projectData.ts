@@ -104,7 +104,7 @@ export const projectGalleries: ProjectGallery[] = [
       { src: "/gallery/a7.webp", category: 1 },
 
       { src: "/gallery/a5.webp", category: 2 },
-      { src: "/gallery/a3.webp", category: 2 },
+      // { src: "/gallery/a3.webp", category: 2 },
 
       { src: "/gallery/a1.webp", category: 3 },
       { src: "/gallery/a8.webp", category: 3 },
