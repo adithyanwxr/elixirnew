@@ -28,8 +28,8 @@ const projects = [
     count: "02 of 05",
     description:
       "“The Orchid” is one of our signature projects, created with a strong focus on luxury and comfort. Located in the heart of Kuttanellur, it stands in one of Thrissur’s finest residential areas.",
-    hero: "/home/Orchid1.webp",
-    thumbs: ["/home/Orchid1.webp"],
+    hero: "/individual-projects/orchid.jpg",
+    thumbs: ["/individual-projects/orchid.jpg"],
     route: "/orchid",
   },
   {
