@@ -8,7 +8,7 @@ const overviewItemsGrid = [
     {
         icon: "/home-project/p5.svg",
         title: "Location",
-        desc: "Elixir Villas & Apartments Pvt. Ltd, Kuttanellur P.O., Thrissur, Kerala ",
+        desc: "Elixir Villas & Apartments Pvt.Ltd, Kuttanellur P.O, Thrissur, Kerala ",
 
     },
     {

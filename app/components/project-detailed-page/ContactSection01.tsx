@@ -110,7 +110,7 @@ export default function ContactSection() {
               <p className="text-[16px] md:text-[18px] leading-[1.6] font-poppins text-[#2c2c2c]">
                 Elixir Homes (Elixir Villas & Apartments Pvt.Ltd.)
                 <br /> Ground Floor (Below SBI Kuttanellur Branch)
-                <br /> Kuttanellur P.O., Thrissur, Kerala - 680014
+                <br /> Kuttanellur P.O, Thrissur, Kerala - 680014
               </p>
             </MotionWrapper>
 

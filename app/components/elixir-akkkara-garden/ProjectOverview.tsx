@@ -18,7 +18,7 @@ const overviewItems = [
   {
     icon: "/project-detailed/icon3.svg",
     title: "Delivered  ",
-    desc: "12 villas / villa plots",
+    desc: "12 Villas / Villa plots",
   },
   {
     icon: "/project-detailed/icon4.svg",
